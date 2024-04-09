@@ -1,13 +1,20 @@
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
+import 'package:flutter_app/controllers/cart_prov.dart';
 
 import 'configs/x_configs.dart';
 import 'modules/features/x_features.dart';
 import 'modules/home/x_homes.dart';
+import 'modules/product/x_product.dart';
 import 'modules/sliver_screen/x_sliver_screens.dart';
 import 'pages/examples/form_input_pg.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(
+    ChangeNotifierProvider(
+    create: (context) => CartProvider(),
+    child: const MyApp(),
+  ));
 }
 
 class MyApp extends StatelessWidget {
@@ -21,12 +28,12 @@ class MyApp extends StatelessWidget {
       theme: Themes.light,
       // theme: MyThemes.darkMode,
       // darkTheme: MyThemes.darkMode,
-      // home: SliverView(),
+      initialRoute: '/product',
       routes: {
         '/': (context) => HomePage(),
-        // '/signin': (context) => SigninPage(),
-        // '/signup': (context) => SignupPage(),
         '/home': (context) => HomePage(),
+        '/product': (context) => ProductPage(),
+        '/cart': (context) => CartPage(),
         '/button': (context) => ButtonPage(),
         '/formInput': (context) => FormInputPage(),
         '/sliver': (context) => SliverView(),

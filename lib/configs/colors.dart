@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+
 // Main Colors:
 // --------------------------------------------------
 const cRed = Color(0xFFE92E30);
@@ -20,12 +21,13 @@ const cTx1 = cBlack;
 //secondarText = Grey
 const cTx2 = Color.fromARGB(255, 102, 102, 102);
 //primaryBackground == Color Primary
-const cBg1 = cPrimer;
+Color cBg1 = Colors.grey.shade300;
 //secondaryBackground = Grey
 const cBg2 = Color.fromARGB(255, 247, 247, 249);
-//primaryElement = blue
+//primaryStroke = black
+const cStroke1 = cBlack;
+//Element = Other Color. primaryElement = blue
 const cElement1 = Color.fromARGB(255, 61, 61, 216);
-//
 
 
 //--Bootstrap Color Standards: (Primary, Secondary,Success,Danger,Warnig,Info,Light,Dark)
@@ -48,7 +50,7 @@ const cGradientPrim = LinearGradient(
   end: Alignment.centerRight,
 );
 
-const kGradientSec = LinearGradient(
+const cGradientSec = LinearGradient(
   colors: [cPrimer, cWhite],
   begin: Alignment.topCenter,
   end: Alignment.bottomCenter,

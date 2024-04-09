@@ -8,17 +8,17 @@ Includes in this template:
 - Snackbar with Bootstrap style
 - Custom Dialog, Loading Dialog
 - Helpers: Responsive, Session, Utils, Extensions, Widgets, MaterialColor
+- Random Colors (in module Product)
 
 # Notes:
 - Started at: Week-1 of Apr-24
 - Frontend: Flutter using version 3.7.3 (Zapp.run)
-- State Mgt: xx
+- State Mgt: Provider
 - Backend: xx
 - DB: xx
 
 # References:
-- [Ytb: Title - By Creator](https://www.youtube.com)
-- [Github: Creator/Repository](https://www.Github.com)
+- [Ytb: Flutter Provider Tutorial - By Hussain Mustafa](https://www.youtube.com/watch?v=CvRkyxJn2Fc)
 - [Ytb: Custom Dialog - By Binarnesia](https://www.youtube.com/watch?v=Sjo8kGULISA)
 
 # Resource References:

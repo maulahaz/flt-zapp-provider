@@ -5,7 +5,7 @@ import 'x_configs.dart';
 class Themes {
   static final light = ThemeData(
       colorScheme: ColorScheme.light(
-        background: Colors.grey.shade300,
+        background: cBg1,
         // background: Color.fromRGBO(152, 233, 202, 1),
         primary: cWhite,
         secondary: cSecond,

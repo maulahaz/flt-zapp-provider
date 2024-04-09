@@ -12,6 +12,7 @@ dependencies:
   shared_preferences:
   http:
   cupertino_icons: ^1.0.2
+  provider:
 
 dev_dependencies:
   flutter_test:

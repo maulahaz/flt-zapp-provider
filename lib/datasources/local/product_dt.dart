@@ -58,7 +58,7 @@ final List<ProductModel> dataProducts = [
       'lib/assets/images/products/mac.png',
       'lib/assets/images/products/mac.png',
     ],
-    name: 'Earphone',
+    name: 'Headset',
     price: 320000,
     stock: 20,
     description:
